@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5126FE131B88165E005A5A64 /* CameraCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5126FE121B88165E005A5A64 /* CameraCreator.swift */; };
 		514914391B86710F004B8C31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514914381B86710F004B8C31 /* AppDelegate.swift */; };
-		5149143B1B86710F004B8C31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5149143A1B86710F004B8C31 /* ViewController.swift */; };
+		5149143B1B86710F004B8C31 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5149143A1B86710F004B8C31 /* MenuViewController.swift */; };
 		5149143E1B86710F004B8C31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5149143C1B86710F004B8C31 /* Main.storyboard */; };
 		514914401B86710F004B8C31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5149143F1B86710F004B8C31 /* Images.xcassets */; };
 		514914431B86710F004B8C31 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514914411B86710F004B8C31 /* LaunchScreen.xib */; };
 		5149144F1B86710F004B8C31 /* Whot_Is_ThisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5149144E1B86710F004B8C31 /* Whot_Is_ThisTests.swift */; };
+		F461E53B1BA40C9800F51623 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F461E53A1BA40C9800F51623 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5126FE121B88165E005A5A64 /* CameraCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraCreator.swift; sourceTree = "<group>"; };
 		514914331B86710F004B8C31 /* Whot Is This.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whot Is This.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		514914371B86710F004B8C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		514914381B86710F004B8C31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5149143A1B86710F004B8C31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5149143A1B86710F004B8C31 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		5149143D1B86710F004B8C31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5149143F1B86710F004B8C31 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		514914421B86710F004B8C31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		514914481B86710F004B8C31 /* Whot Is ThisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whot Is ThisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5149144D1B86710F004B8C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5149144E1B86710F004B8C31 /* Whot_Is_ThisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whot_Is_ThisTests.swift; sourceTree = "<group>"; };
+		F461E53A1BA40C9800F51623 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ../CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				514914381B86710F004B8C31 /* AppDelegate.swift */,
-				5149143A1B86710F004B8C31 /* ViewController.swift */,
+				5149143A1B86710F004B8C31 /* MenuViewController.swift */,
+				F461E53A1BA40C9800F51623 /* CameraViewController.swift */,
+				5126FE121B88165E005A5A64 /* CameraCreator.swift */,
 				5149143C1B86710F004B8C31 /* Main.storyboard */,
 				5149143F1B86710F004B8C31 /* Images.xcassets */,
 				514914411B86710F004B8C31 /* LaunchScreen.xib */,
@@ -156,11 +162,14 @@
 		5149142B1B86710F004B8C31 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Mahmud Ahmad";
 				TargetAttributes = {
 					514914321B86710F004B8C31 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 8GGVG69G2K;
 					};
 					514914471B86710F004B8C31 = {
 						CreatedOnToolsVersion = 6.4;
@@ -212,8 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5149143B1B86710F004B8C31 /* ViewController.swift in Sources */,
+				5149143B1B86710F004B8C31 /* MenuViewController.swift in Sources */,
 				514914391B86710F004B8C31 /* AppDelegate.swift in Sources */,
+				F461E53B1BA40C9800F51623 /* CameraViewController.swift in Sources */,
+				5126FE131B88165E005A5A64 /* CameraCreator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +269,7 @@
 		514914501B86710F004B8C31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -276,6 +287,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -303,7 +315,7 @@
 		514914511B86710F004B8C31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -322,6 +334,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.proj *.framework *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -342,9 +355,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Whot Is This/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -352,9 +369,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Whot Is This/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -372,6 +393,7 @@
 				);
 				INFOPLIST_FILE = "Whot Is ThisTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whot Is This.app/Whot Is This";
 			};
@@ -387,6 +409,7 @@
 				);
 				INFOPLIST_FILE = "Whot Is ThisTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whot Is This.app/Whot Is This";
 			};
@@ -411,6 +434,7 @@
 				514914541B86710F004B8C31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		514914551B86710F004B8C31 /* Build configuration list for PBXNativeTarget "Whot Is ThisTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +443,7 @@
 				514914571B86710F004B8C31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
